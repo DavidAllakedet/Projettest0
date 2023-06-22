@@ -44,4 +44,16 @@
     .lien-conteneur-photo:hover .photo-hover{
       display: flex;
     }
-    
+    h2{
+      margin-top: 80px;
+    }
+    @media screen and (max-width: 996px) { 
+      .grid-paysages{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .grid-portraits{
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  }

@@ -12,12 +12,15 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo.png" alt="le-logo"></a>
-            <a href="index.html">ACCUEIL</a>
-            <a href="a-propos.html">A PROPOS</a>  
-            <a href="portfolio.html">PORTFOLIO</a>  
-
-        </nav> 
+            <a href="a-propos.html" class="liens-icone"><img src="images/logo.png" alt="le-logo"></a>
+            <div class="menu">
+                <a href="index.html">ACCUEIL</a>
+                <a href="a-propos.html">A PROPOS</a>
+                <a href="index.html">TARIFS</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+            </div>
+            
+    </nav>
     </header>
     <main>
         <section class="accueil-introduction">
@@ -35,7 +38,7 @@
         <section class="accueil-photos">
             <h2>Mon prochain projet</h1>
             <div >
-                <img src="images/accueil/element-1.png" alt="element-1">
+                <img src="images/accueil/element-1.png" alt="">
                 <img src="images/accueil/element-2.png" alt="">
                 <img src="images/accueil/element-3.png" alt="">
             </div>
@@ -45,18 +48,39 @@
                 <img src="images/accueil/element-6.png" alt="">
             </div>
         </section>
-          
+        <section class="Contact">
+            <h2>Parlons de votre projet</h2>
+            <form method="get" action="#">
+                <div class="C-nom-email">
+                    <div class="C-colonne">
+                        <label for="nom">nom</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="C-colonne">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>    
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="ENVOYER" class="cta">
+            </form>        
+        </section>
     </main>
    <footer>
+    <nav>
         <a href="">
             <img src="images/logo.png" alt="le-logo" >
         </a>
-        <a target="_blank" href="https://twitter.com/" class="liens-icone">
-            <img src="images/twitter.png" alt="">
-        </a>
-        <a target="_blank" href="https://www.instagram.com/" class="liens-icone">
-            <img src="images/instagram.png" alt="">
-        </a>
+        <div class="menu">
+            <a target="_blank" href="https://twitter.com/" class="liens-icone">
+                <img src="images/twitter.png" alt="">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="liens-icone">
+                <img src="images/instagram.png" alt="">
+            </a>
+        </div>
+    </nav>       
    </footer>
 </body>
 </html>

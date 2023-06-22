@@ -33,3 +33,75 @@
   .accueil-introduction div {
     padding-right: 80px;
   }
+
+  .Contact h2{
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+  form{
+    display: flex;
+    flex-direction:column;
+    width: 70%;
+    margin: auto;
+    color: white;
+    
+  }
+.C-nom-email{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.C-colonne{
+    flex: 1;
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 20px;
+    
+  }
+  input,textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  label{
+    margin-bottom: 10px;
+  }
+  input[type="submit"]{
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 996px) { .accueil-introduction{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accueil-introduction div{
+    padding: 0;
+    text-align: center;
+    order: 2;
+  }
+  .accueil-introduction img{
+    margin-bottom: 20px;
+    width: 100%;
+    order: 1;
+
+  }
+  .accueil-photos{
+    padding: 20px;
+  }
+  .accueil-photos div{
+    flex-direction: column;
+  }
+  .Contact{
+    padding: 50px 20px;
+  }
+  .C-nom-email{
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+  
